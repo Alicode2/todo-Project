@@ -136,3 +136,18 @@ select {
   background: white;
   color: #ff6f47;
 }
+
+@media (max-width: 480px) {
+  body {
+    padding: 3rem;
+    text-align: center;
+  }
+  header {
+    font-size: 0.61rem;
+  }
+  form {
+    margin-left: 8rem;
+    width: 3rem;
+    text-align: center;
+  }
+}
